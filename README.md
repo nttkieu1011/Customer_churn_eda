@@ -85,4 +85,4 @@ As an exploratory analysis, these findings indicate associations rather than cau
 
 ## 8. Project Notebook
 
-For the complete Python code and detailed analysis, see [Customer Churn EDA Notebook](Notebook/Customer_churn_eda.ipynb).
+For the complete Python code and detailed analysis, see [Customer Churn EDA Notebook](Notebook/customer_churn_eda.ipynb).
