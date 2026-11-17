@@ -47,31 +47,31 @@ The analysis examined the overall churn rate and explored its relationship with 
 
 ### 6.1. Support Calls and Churn
 
-![Churn Rate by Support Calls](notebooks/figures/churn_by_support_calls.png)
+![Churn Rate by Support Calls](Notebook/figure/churn_by_support_calls.png)
 
 Customers making **more than 5 support calls** exhibit a dramatically higher churn rate. Frequent support interactions may indicate unresolved issues or customer dissatisfaction, making support call frequency a potential indicator of churn risk.
 
 ### 6.2. Payment Delay and Churn
 
-![Churn Rate by Payment Delay](notebooks/figures/churn_by_payment_delay.png)
+![Churn Rate by Payment Delay](Notebook/figure/churn_by_payment_delay.png)
 
 Customers with payment delays of **21 days or more** show an extremely high churn rate, while those with shorter delays maintain substantially lower churn rates. Payment delay may therefore serve as an important signal for identifying customers at risk of leaving.
 
 ### 6.3. Contract Length and Churn
 
-![Churn Rate by Contract Length](notebooks/figures/churn_by_contract.png)
+![Churn Rate by Contract Length](Notebook/figure/churn_rate_by_contract_length.png)
 
 Customers on **Monthly contracts** have an exceptionally high churn rate (approximately 99.8%), compared with customers on Annual or Quarterly contracts. This suggests a strong association between contract length and customer retention.
 
 ### 6.4. Total Spending and Churn
 
-![Churn by Total Spending](notebooks/figures/churn_by_total_spend.png)
+![Churn by Total Spending](Notebook/figure/distribution_of_total_spend_by_churn_status.png)
 
 Customers with total spending **below 500** tend to exhibit higher churn rates. However, overlapping spending distributions between churned and retained customers suggest that spending alone cannot fully explain churn behavior.
 
 ### 6.5. Customer Age and Churn
 
-![Churn Rate by Age](notebooks/figures/churn_by_age.png)
+![Churn Rate by Age](Notebook/figure/churn_rate_by_age.png)
 
 Customers aged **51 and above** exhibit a noticeably higher churn rate than younger age groups, suggesting that age may be associated with differences in customer retention patterns.
 
@@ -85,4 +85,4 @@ As an exploratory analysis, these findings indicate associations rather than cau
 
 ## 8. Project Notebook
 
-For the complete Python code and detailed analysis, see [Customer Churn EDA Notebook](notebooks/customer_churn_eda.ipynb).
+For the complete Python code and detailed analysis, see [Customer Churn EDA Notebook](Notebook/Customer_churn_eda.ipynb).
